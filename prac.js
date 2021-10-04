@@ -36,7 +36,9 @@
 
 //for of type
 
-const numbers = [10,20,30,40];
-for (let anything of numbers ){
-    console.log(anything+5);
-};
+// const numbers = [10,20,30,40];
+// for (let anything of numbers ){
+//     console.log(anything+5);
+// };
+
+// console.log("Hello World")
