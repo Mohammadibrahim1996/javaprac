@@ -17,4 +17,4 @@
     return num > 1;
   };
 
-  console.log(isPrime(10));
+  console.log(isPrime(17));
