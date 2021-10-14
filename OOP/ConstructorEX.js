@@ -6,10 +6,8 @@ const movies ={
             console.log(element,this.TITLE);
         }.bind(this)
         );
-    }
-}
+    },
+};
+
 movies.showMovie();
-//  function checkThis(){
-//      console.log("regular function",this)
-//  }
 
