@@ -43,11 +43,17 @@
 
 // console.log("Hello World")
  
-let a='red';
-let b='blue';
+// let a='red';
+// let b='blue';
 
-let c=a;
- a=b;
- b=c;
-console.log(a);
-console.log(b);
+// let c=a;
+//  a=b;
+//  b=c;
+// console.log(a);
+// console.log(b);
+
+const a = function(x,y){
+    return x+y;
+}
+const b = a(15, 10);
+console.log(b)
