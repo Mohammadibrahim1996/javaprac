@@ -18,20 +18,20 @@
 
  //Fatctory Function
  function createAdress(street,city,zipCode){
-     return {
-         street,
-         city,
-         zipCode
-     };
- }
+    return {
+        street,
+        city,
+        zipCode
+    };
+}
 
 
- //Constructor Function
- let adress = new Adress( "a","b","c");
- console.log(adress)
+//Constructor Function
+let adress = new Adress( "a","b","c");
+console.log(adress)
 
-  function Adress(street,city,zipCode){
-      this.street=street;
-      this.city=city;
-      this.zipCode=zipCode;
-  } 
+ function Adress(street,city,zipCode){
+     this.street=street;
+     this.city=city;
+     this.zipCode=zipCode;
+ } 
