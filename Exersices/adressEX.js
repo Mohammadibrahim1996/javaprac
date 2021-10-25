@@ -35,7 +35,5 @@ console.log(adress)
      this.city=city;
      this.zipCode=zipCode;
  } 
- jkmsfdf.zf
- lkf/ejf/webkitURL,flk.efa
- kh.kfjh.sfw
- kjjkfahw;jk.sakkf
+
+ asdf ;lkj asf ;lkj asdf;lkj asdf;lkj asdf;lkj  asdflkj asdflkj asdf;lkj adf;lkjasdfj;lkj asdf;lkjj asd;flkjj a;sdlfkjj a;dslfkj 
