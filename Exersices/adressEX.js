@@ -35,4 +35,3 @@ console.log(adress)
      this.city=city;
      this.zipCode=zipCode;
  } 
- asd ;length;k asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkjjasdf ;lkja asdf ;lj asdf ;lkjasdf ;lkj asdf ;lkjasdf lkj 
