@@ -47,3 +47,15 @@ console.log(back);
 var x= "Hello World"
 var back= x.split('').reverse().join("");
 console.log(back);
+var x= "Hello World"
+var back= x.split('').reverse().join("");
+console.log(back);
+var x= "Hello World"
+var back= x.split('').reverse().join("");
+console.log(back);
+var x= "Hello World"
+var back= x.split('').reverse().join("");
+console.log(back);
+var x= "Hello World"
+var back= x.split('').reverse().join("");
+console.log(back);
