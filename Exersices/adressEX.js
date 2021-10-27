@@ -35,3 +35,15 @@ console.log(adress)
      this.city=city;
      this.zipCode=zipCode;
  } 
+
+
+ 
+//Constructor Function
+let adress = new Adress( "a","b","c");
+console.log(adress)
+
+ function Adress(street,city,zipCode){
+     this.street=street;
+     this.city=city;
+     this.zipCode=zipCode;
+ } 
