@@ -8,3 +8,9 @@ console.log(appleJuice);
 const orangeAppleJuice = fruitProcessor(5,5);
 console.log(orangeAppleJuice);
 
+function mixer(cement,sand){
+    const mixtureRatio=`quantity of cement ${cement} quantity of sand ${sand}`
+    return mixtureRatio;
+}
+const mixerSample1 = mixer(5,3)
+console.log(mixerSample1);
