@@ -14,3 +14,10 @@ function mixer(cement,sand){
 }
 const mixerSample1 = mixer(5,3)
 console.log(mixerSample1);
+
+function producer(plastic,lead){
+    const quantity=`percenatge of plastic ${plastic}% and percentage of ${lead}%`
+    return quantity;
+}
+const producer2= producer(30,15)
+console.log(producer2);
