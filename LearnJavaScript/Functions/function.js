@@ -5,5 +5,6 @@ function fruitProcessor(apples,oranges){
 const appleJuice = fruitProcessor(5,0);
 console.log(appleJuice);
 
-const orangeAppleJuice = fruitProcessor(5,3);
+const orangeAppleJuice = fruitProcessor(5,5);
 console.log(orangeAppleJuice);
+
