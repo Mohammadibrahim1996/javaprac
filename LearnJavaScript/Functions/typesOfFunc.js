@@ -34,14 +34,26 @@ function greet (){
    // console.log(name);/////we cant access this cz its access already we cant access it anymore here
 
     ////NESTED SCOPE 
-  var naam="peter",
-  function hola(){
-      var namaste="namskar"
-      {
-          let bhasa="Marathi"
-          console.log(`${bhasa} : ${namaste} : ${naam}`)
-      }
-  }
- let sahil = hola();
+//   var naam="peter",
+//   function hola(){
+//       var namaste="namskar"
+//       {
+//           let bhasa="Marathi"
+//           console.log(`${bhasa} : ${namaste} : ${naam}`)
+//       }
+//   }
+//  let sahil = hola();
+
+ //LEXICAL SCOPE 
+
+ let number =43;
+ function printNumber(){
+     console.log(number)
+ }
+ function log (){
+     let number = 54;
+     printNumber();
+ }
+ log();
 
 
