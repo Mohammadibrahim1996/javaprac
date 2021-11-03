@@ -9,5 +9,5 @@ function creatPerson(fname,lname){
 }
 
 const  Person = new creatPerson("sahil","Mustafa");
-console.log(Person);
+// console.log(Person);
 console.log(Person.getFullName());
