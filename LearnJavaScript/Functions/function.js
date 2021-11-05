@@ -19,5 +19,5 @@ function producer(plastic,lead){
     const quantity=`percenatge of plastic ${plastic}% and percentage of ${lead}%`
     return quantity;
 }
-const producer2= producer(30,15)
-console.log(producer2);
+const producer2= producer()
+console.log(producer(5,5));
