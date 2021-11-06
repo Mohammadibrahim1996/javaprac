@@ -16,3 +16,26 @@ function item(x){
     console.log(x);
 };
 item("apple")
+
+
+
+const x = "x"
+function item(x){
+    console.log(x);
+};
+item("apple")
+const x = "x"
+function item(x){
+    console.log(x);
+};
+item("apple")
+const x = "x"
+function item(x){
+    console.log(x);
+};
+item("apple")
+const x = "x"
+function item(x){
+    console.log(x);
+};
+item("apple")
