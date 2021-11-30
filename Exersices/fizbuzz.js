@@ -4,7 +4,7 @@
 //not divisble by 3 or 5 => input 
 // not a number => Nan
 
-const output = fizzBuzz(3);
+const output = fizzBuzz('ff');
 
 function fizzBuzz(input) {
     
