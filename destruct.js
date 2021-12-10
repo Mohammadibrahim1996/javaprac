@@ -7,4 +7,6 @@ const data = [
 const dataMap = data.map((item)=>{
     const {age,name,designation}= item;
     console.log(age);
+    console.log(name)
+    console.log(designation)
 });
