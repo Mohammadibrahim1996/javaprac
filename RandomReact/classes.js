@@ -42,14 +42,3 @@ const fullDetails= new Country("jhon","wick",8983134798,"Nanded","India");
 console.log(fullDetails.greetings(),fullDetails.getContact(),fullDetails.getCountry());
 
 
-class Country extends Contact{
-    constructor(fname,lname,phone,city,country){
-    super(fname,lname,phone,city)
-    this.countryName= country;
-}
-getCountry(){
-    return `From: ${this.countryName}`;
-}
-};
-const fullDetails= new Country("jhon","wick",8983134798,"Nanded","India");
-console.log(fullDetails.greetings(),fullDetails.getContact(),fullDetails.getCountry());
