@@ -10,3 +10,13 @@ while (i <= 10) {
   console.log(i);
   i++;
 }
+
+function sahil() {
+  var name = "ibrahim";
+  function dusranaam() {
+    console.log(name);
+  }
+  return dusranaam();
+}
+const abc = sahil();
+console.log(abc);
