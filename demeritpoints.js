@@ -18,17 +18,3 @@ function checkspeed(speed) {
     else console.log("points", points);
   }
 }
-
-function checkspeed(speed) {
-  const speedlimit = 70;
-  const kmperpoint = 5;
-
-  if (speed < speedlimit + kmperpoint) {
-    console.log("Ok");
-    return;
-  } else {
-    const points = Math.floor((speed - speedlimit) / kmperpoint);
-    if (points >= 12) console.log("LICENSED SUSPENDED");
-    else console.log("points", points);
-  }
-}
